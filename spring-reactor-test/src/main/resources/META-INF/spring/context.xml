@@ -9,7 +9,7 @@
 		<property name="name" value="log.event.reactor"/>
 	</bean>
 	
-	<bean id="simple.reactor" class="de.incompleteco.spring.reactor.command.SimpleReactorCommand"/>
+	<bean id="simple.reactor" class="de.incompleteco.spring.reactor.command.SimpleLogEventConsumer"/>
 	
 	<bean class="reactor.spring.context.ConsumerBeanPostProcessor"/>
 	
